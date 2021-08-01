@@ -1,0 +1,5 @@
+region        = "eu-west-2"
+ami_name      = "packer-build-{{timestamp}}"
+source_ami    = "ami-0194c3e07668a7e36"
+instance_type = "t2.micro"
+ssh_username  = "ubuntu"
